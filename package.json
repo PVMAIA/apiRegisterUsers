@@ -1,0 +1,26 @@
+{
+  "name": "api-register-users",
+  "version": "1.0.0",
+  "description": "Basic User Registration API",
+  "main": "src/index.js",
+  "author": "PVMAIA",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "firebase-admin": "^10.0.2",
+    "multer": "^1.4.4",
+    "pg": "^8.7.3",
+    "salted-md5": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}
